@@ -36,7 +36,6 @@ public class ResepDetailFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_resep_detail, container, false);
     }
-
     public void setResep(long id){
         this.resepId = id;
     }

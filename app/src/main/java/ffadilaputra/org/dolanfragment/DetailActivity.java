@@ -13,6 +13,7 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_details);
 
         ResepDetailFragment fragment = (ResepDetailFragment) getSupportFragmentManager().findFragmentById(R.id.detail_flag);
-        fragment.setResep(1);
+        Bundle bu = getIntent().getExtras();
+        fragment.setResep(bu.getInt("id"));
     }
 }

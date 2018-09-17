@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fragment
+    android:id="@+id/fragment_container"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:name="ffadilaputra.org.dolanfragment.ResepListFragment"
     android:layout_width="match_parent"
